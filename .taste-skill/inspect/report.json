@@ -1,0 +1,2206 @@
+{
+ "url": "index.html",
+ "at": "2026-11-01T22:27:48.195Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    0.38,
+    0.49,
+    0.83,
+    0.68,
+    0.65,
+    0.98,
+    0.86,
+    0.46,
+    0.72,
+    0.65
+   ],
+   "motion": {
+    "elements": 27,
+    "css": 27,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 8906,
+     "screens": 9.9,
+     "words": 1233,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "shaji-profile.png",
+      "zephyr-banner.jpg",
+      "container-freight-jpg.jpg",
+      "container-terminal-jpg.jpg",
+      "dubai-creek-dhow-jpg.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "SHAJI CHITTODAN",
+     "words": 2,
+     "chars": 15,
+     "lines": 2,
+     "size": 92.8,
+     "vw": 6.4,
+     "font": "Panchang",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.05,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.58,
+     "top": 148,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "SHAJI CHITTODAN",
+     "words": 2,
+     "lines": 2,
+     "size": 92.8,
+     "font": "Panchang"
+    },
+    "headings": [
+     {
+      "text": "SHAJI CHITTODAN",
+      "words": 2,
+      "chars": 15,
+      "lines": 2,
+      "size": 92.8,
+      "vw": 6.4,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 148,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "GROUNDED IN INDUSTRY",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 1159,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "THE DUAL ADVANTAGE",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 1344,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "ENTERPRISE CAPABILITIES",
+      "words": 2,
+      "chars": 23,
+      "lines": 1,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 2043,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "AUTONOMOUS MCP AGENTS",
+      "words": 3,
+      "chars": 21,
+      "lines": 2,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 2276,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "N8N PIPELINES",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 2676,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "VOICE AGENTS",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.32,
+      "top": 2676,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "INTERNAL PORTALS",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 2985,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "EXECUTIVE ADVISORY",
+      "words": 2,
+      "chars": 18,
+      "lines": 2,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.32,
+      "top": 2985,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "OPERATIONAL WORKFLOWS",
+      "words": 2,
+      "chars": 21,
+      "lines": 1,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 3467,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "CAREER CHRONOLOGY",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 4327,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "FOUNDER & MANAGING DIRECTOR",
+      "words": 4,
+      "chars": 27,
+      "lines": 1,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.52,
+      "top": 4517,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "BUSINESS DEVELOPMENT MANAGER",
+      "words": 3,
+      "chars": 28,
+      "lines": 2,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.52,
+      "top": 4839,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "BUSINESS DEVELOPMENT MANAGER",
+      "words": 3,
+      "chars": 28,
+      "lines": 2,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.52,
+      "top": 5197,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "SALES MANAGER",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.52,
+      "top": 5530,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "TERRITORY MANAGER",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.52,
+      "top": 5827,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "CREDENTIALS & EXPERTISE",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 6241,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "ACADEMIC DEGREES",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 6398,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "PROFESSIONAL CREDENTIALS",
+      "words": 2,
+      "chars": 24,
+      "lines": 2,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 6398,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "MARITIME HERITAGE",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.34,
+      "top": 7308,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "INITIATE DIALOGUE",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 29.6,
+      "vw": 2.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.57,
+      "top": 7881,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 21,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Switzer",
+       "share": 0.93,
+       "mono": false
+      },
+      {
+       "family": "Panchang",
+       "share": 0.07,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      18,
+      30,
+      93
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Switzer",
+      "size": 16,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.7
+     },
+     "measureChars": 66,
+     "max": {
+      "size": 92.8,
+      "vw": 6.4,
+      "font": "Panchang",
+      "text": "SHAJI CHITTODAN"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.06,
+     "centerShare": 0.05,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0a0d14",
+     "bodyBgHsl": {
+      "h": 222,
+      "s": 0.33,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0d121c",
+       "top": 1957,
+       "hsl": {
+        "h": 220,
+        "s": 0.37,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#131824",
+       "top": 2228,
+       "hsl": {
+        "h": 222,
+        "s": 0.31,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#0a0d14",
+       "top": 8568,
+       "hsl": {
+        "h": 222,
+        "s": 0.33,
+        "l": 0.06
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#c2c9d6",
+       "share": 0.59
+      },
+      {
+       "color": "#8891a1",
+       "share": 0.19
+      },
+      {
+       "color": "#e9edf3",
+       "share": 0.14
+      },
+      {
+       "color": "#5a9bfc",
+       "share": 0.07
+      },
+      {
+       "color": "#0a0d14",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#131824",
+      "hsl": {
+       "h": 222,
+       "s": 0.31,
+       "l": 0.11
+      },
+      "fg": "#e9edf3"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 11,
+     "inHero": 5,
+     "radius": 4,
+     "height": 50,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Zephyr FZE ↗",
+      "Initiate Dialogue",
+      "Schedule Consultation",
+      "Visit Zephyr FZE ↗",
+      "LinkedIn Profile"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 22,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 6,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 3893
+      },
+      {
+       "count": 5,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 4485
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 6493
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.08
+     }
+    ],
+    "nav": {
+     "links": 8,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "panchang",
+     "switzer"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 8906,
+    "margins": {
+     "left": 168,
+     "right": 168
+    },
+    "sections": [
+     {
+      "sel": "section#hero.hero-section",
+      "tag": "section",
+      "top": 76,
+      "height": 713,
+      "words": 78,
+      "media": 1,
+      "middle": 64,
+      "heading": {
+       "text": "SHAJI CHITTODAN",
+       "size": 93,
+       "tag": "h1"
+      },
+      "left": 168,
+      "right": 196,
+      "textLeft": 168,
+      "textRight": 220,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.banner-strip-section",
+      "tag": "section",
+      "top": 789,
+      "height": 284,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 168,
+      "right": 168,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#overview.section-block",
+      "tag": "section",
+      "top": 1073,
+      "height": 884,
+      "words": 185,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "GROUNDED IN INDUSTRY",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 168,
+      "right": 168,
+      "textLeft": 168,
+      "textRight": 206,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#systems.section-block.section-alt",
+      "tag": "section",
+      "top": 1957,
+      "height": 1424,
+      "words": 245,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "ENTERPRISE CAPABILITIES",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 168,
+      "right": 168,
+      "textLeft": 168,
+      "textRight": 206,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#workflows.section-block",
+      "tag": "section",
+      "top": 3380,
+      "height": 860,
+      "words": 168,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "OPERATIONAL WORKFLOWS",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 168,
+      "right": 168,
+      "textLeft": 168,
+      "textRight": 243,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#trajectory.section-block.section-alt",
+      "tag": "section",
+      "top": 4241,
+      "height": 1914,
+      "words": 289,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "CAREER CHRONOLOGY",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 168,
+      "right": 206,
+      "textLeft": 168,
+      "textRight": 206,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#credentials.section-block",
+      "tag": "section",
+      "top": 6154,
+      "height": 1568,
+      "words": 248,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "CREDENTIALS & EXPERTISE",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 168,
+      "right": 197,
+      "textLeft": 168,
+      "textRight": 197,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.section-block.section-alt",
+      "tag": "section",
+      "top": 7722,
+      "height": 846,
+      "words": 90,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "INITIATE DIALOGUE",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 310,
+      "right": 316,
+      "textLeft": 310,
+      "textRight": 316,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 8568,
+      "height": 338,
+      "words": 88,
+      "media": 0,
+      "middle": 239,
+      "heading": null,
+      "left": 168,
+      "right": 168,
+      "textLeft": 168,
+      "textRight": 168,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "SHAJI CHITTODAN",
+      "size": 93,
+      "top": 148,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 168,
+      "n": 16
+     },
+     {
+      "x": 488,
+      "n": 11
+     },
+     {
+      "x": 770,
+      "n": 8
+     },
+     {
+      "x": 204,
+      "n": 5
+     },
+     {
+      "x": 192,
+      "n": 3
+     },
+     {
+      "x": 740,
+      "n": 3
+     },
+     {
+      "x": 216,
+      "n": 2
+     },
+     {
+      "x": 236,
+      "n": 1
+     },
+     {
+      "x": 754,
+      "n": 1
+     },
+     {
+      "x": 1013,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 51,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.09,
+    "voidBox": {
+     "x": 1260,
+     "y": 120,
+     "w": 180,
+     "h": 660
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.5,
+    0.64,
+    0.78,
+    0.99,
+    0.86,
+    0.61,
+    0.97,
+    0.93,
+    0.7,
+    0.72,
+    0.97,
+    0.73
+   ],
+   "motion": {
+    "elements": 27,
+    "css": 27,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 11672,
+     "screens": 11.4,
+     "words": 1222,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "shaji-profile.png",
+      "zephyr-banner.jpg",
+      "container-freight-jpg.jpg",
+      "container-terminal-jpg.jpg",
+      "dubai-creek-dhow-jpg.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "SHAJI CHITTODAN",
+     "words": 2,
+     "chars": 15,
+     "lines": 2,
+     "size": 69.8,
+     "vw": 9.1,
+     "font": "Panchang",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.05,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 116,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "SHAJI CHITTODAN",
+     "words": 2,
+     "lines": 2,
+     "size": 69.8,
+     "font": "Panchang"
+    },
+    "headings": [
+     {
+      "text": "SHAJI CHITTODAN",
+      "words": 2,
+      "chars": 15,
+      "lines": 2,
+      "size": 69.8,
+      "vw": 9.1,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 116,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Switzer",
+       "share": 0.93,
+       "mono": false
+      },
+      {
+       "family": "Panchang",
+       "share": 0.07,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      18,
+      25,
+      70
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Switzer",
+      "size": 16,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.7
+     },
+     "measureChars": 75,
+     "max": {
+      "size": 69.8,
+      "vw": 9.1,
+      "font": "Panchang",
+      "text": "SHAJI CHITTODAN"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.06,
+     "centerShare": 0.07,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0a0d14",
+     "bodyBgHsl": {
+      "h": 222,
+      "s": 0.33,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#131824",
+       "top": 675,
+       "hsl": {
+        "h": 222,
+        "s": 0.31,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#05070a",
+       "top": 675,
+       "hsl": {
+        "h": 216,
+        "s": 0.33,
+        "l": 0.03
+       }
+      },
+      {
+       "color": "#0d121c",
+       "top": 3025,
+       "hsl": {
+        "h": 220,
+        "s": 0.37,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#0a0d14",
+       "top": 11241,
+       "hsl": {
+        "h": 222,
+        "s": 0.33,
+        "l": 0.06
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#c2c9d6",
+       "share": 0.59
+      },
+      {
+       "color": "#8891a1",
+       "share": 0.19
+      },
+      {
+       "color": "#e9edf3",
+       "share": 0.14
+      },
+      {
+       "color": "#5a9bfc",
+       "share": 0.07
+      },
+      {
+       "color": "#0a0d14",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#131824",
+      "hsl": {
+       "h": 222,
+       "s": 0.31,
+       "l": 0.11
+      },
+      "fg": "#e9edf3"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 3,
+     "radius": 4,
+     "height": 50,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Schedule Consultation",
+      "Visit Zephyr FZE ↗",
+      "LinkedIn Profile"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 22,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 5,
+     "mediaRadius": 6,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 5482
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.31
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "panchang",
+     "switzer"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 11672,
+    "margins": {
+     "left": 31,
+     "right": 31
+    },
+    "sections": [
+     {
+      "sel": "section#hero.hero-section",
+      "tag": "section",
+      "top": 76,
+      "height": 1466,
+      "words": 78,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "SHAJI CHITTODAN",
+       "size": 70,
+       "tag": "h1"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 93,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.banner-strip-section",
+      "tag": "section",
+      "top": 1542,
+      "height": 241,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 31,
+      "right": 31,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#overview.section-block",
+      "tag": "section",
+      "top": 1783,
+      "height": 1242,
+      "words": 185,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "GROUNDED IN INDUSTRY",
+       "size": 25,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 64,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#systems.section-block.section-alt",
+      "tag": "section",
+      "top": 3025,
+      "height": 2018,
+      "words": 245,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "ENTERPRISE CAPABILITIES",
+       "size": 25,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 99,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#workflows.section-block",
+      "tag": "section",
+      "top": 5043,
+      "height": 917,
+      "words": 168,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "OPERATIONAL WORKFLOWS",
+       "size": 25,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 85,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#trajectory.section-block.section-alt",
+      "tag": "section",
+      "top": 5959,
+      "height": 2137,
+      "words": 289,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "CAREER CHRONOLOGY",
+       "size": 25,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 87,
+      "textLeft": 31,
+      "textRight": 87,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#credentials.section-block",
+      "tag": "section",
+      "top": 8096,
+      "height": 2139,
+      "words": 248,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "CREDENTIALS & EXPERTISE",
+       "size": 25,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 87,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.section-block.section-alt",
+      "tag": "section",
+      "top": 10235,
+      "height": 1006,
+      "words": 90,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "INITIATE DIALOGUE",
+       "size": 25,
+       "tag": "h2"
+      },
+      "left": 73,
+      "right": 73,
+      "textLeft": 73,
+      "textRight": 73,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 11241,
+      "height": 431,
+      "words": 88,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 31,
+      "right": 226,
+      "textLeft": 31,
+      "textRight": 226,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "SHAJI CHITTODAN",
+      "size": 70,
+      "top": 116,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 55,
+      "n": 22
+     },
+     {
+      "x": 31,
+      "n": 17
+     },
+     {
+      "x": 67,
+      "n": 8
+     },
+     {
+      "x": 85,
+      "n": 2
+     },
+     {
+      "x": 418,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 51,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.52,
+    0.71,
+    0.75,
+    0.87,
+    0.98,
+    0.95,
+    0.94,
+    0.61,
+    0.61,
+    0.98,
+    0.98,
+    0.91
+   ],
+   "motion": {
+    "elements": 27,
+    "css": 27,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 15163,
+     "screens": 18,
+     "words": 1222,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "shaji-profile.png",
+      "container-freight-jpg.jpg",
+      "container-terminal-jpg.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "SHAJI CHITTODAN",
+     "words": 2,
+     "chars": 15,
+     "lines": 2,
+     "size": 40.5,
+     "vw": 10.4,
+     "font": "Panchang",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.05,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.93,
+     "top": 116,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "SHAJI CHITTODAN",
+     "words": 2,
+     "lines": 2,
+     "size": 40.5,
+     "font": "Panchang"
+    },
+    "headings": [
+     {
+      "text": "SHAJI CHITTODAN",
+      "words": 2,
+      "chars": 15,
+      "lines": 2,
+      "size": 40.5,
+      "vw": 10.4,
+      "font": "Panchang",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.05,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 116,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Switzer",
+       "share": 0.93,
+       "mono": false
+      },
+      {
+       "family": "Panchang",
+       "share": 0.07,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      18,
+      22,
+      41
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Switzer",
+      "size": 16,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.7
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 40.5,
+      "vw": 10.4,
+      "font": "Panchang",
+      "text": "SHAJI CHITTODAN"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.06,
+     "centerShare": 0.07,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0a0d14",
+     "bodyBgHsl": {
+      "h": 222,
+      "s": 0.33,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#131824",
+       "top": 891,
+       "hsl": {
+        "h": 222,
+        "s": 0.31,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#05070a",
+       "top": 891,
+       "hsl": {
+        "h": 216,
+        "s": 0.33,
+        "l": 0.03
+       }
+      },
+      {
+       "color": "#0d121c",
+       "top": 3144,
+       "hsl": {
+        "h": 220,
+        "s": 0.37,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#0a0d14",
+       "top": 14642,
+       "hsl": {
+        "h": 222,
+        "s": 0.33,
+        "l": 0.06
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#c2c9d6",
+       "share": 0.59
+      },
+      {
+       "color": "#8891a1",
+       "share": 0.19
+      },
+      {
+       "color": "#e9edf3",
+       "share": 0.14
+      },
+      {
+       "color": "#5a9bfc",
+       "share": 0.07
+      },
+      {
+       "color": "#0a0d14",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#131824",
+      "hsl": {
+       "h": 222,
+       "s": 0.31,
+       "l": 0.11
+      },
+      "fg": "#e9edf3"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 3,
+     "radius": 4,
+     "height": 50,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Schedule Consultation",
+      "Visit Zephyr FZE ↗",
+      "LinkedIn Profile"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 22,
+     "boxRadius": 6,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 6,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 6749
+      },
+      {
+       "count": 5,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 7894
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 11536
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "panchang",
+     "switzer"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 15163,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section#hero.hero-section",
+      "tag": "section",
+      "top": 76,
+      "height": 1338,
+      "words": 78,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "SHAJI CHITTODAN",
+       "size": 41,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 8,
+      "textLeft": 20,
+      "textRight": 8,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.banner-strip-section",
+      "tag": "section",
+      "top": 1414,
+      "height": 152,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#overview.section-block",
+      "tag": "section",
+      "top": 1566,
+      "height": 1578,
+      "words": 185,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "GROUNDED IN INDUSTRY",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#systems.section-block.section-alt",
+      "tag": "section",
+      "top": 3144,
+      "height": 2870,
+      "words": 245,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "ENTERPRISE CAPABILITIES",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#workflows.section-block",
+      "tag": "section",
+      "top": 6014,
+      "height": 1621,
+      "words": 168,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "OPERATIONAL WORKFLOWS",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 35,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#trajectory.section-block.section-alt",
+      "tag": "section",
+      "top": 7635,
+      "height": 2960,
+      "words": 289,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "CAREER CHRONOLOGY",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 23,
+      "textLeft": 20,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#credentials.section-block",
+      "tag": "section",
+      "top": 10595,
+      "height": 2747,
+      "words": 248,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "CREDENTIALS & EXPERTISE",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.section-block.section-alt",
+      "tag": "section",
+      "top": 13342,
+      "height": 1301,
+      "words": 90,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "INITIATE DIALOGUE",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 44,
+      "right": 44,
+      "textLeft": 44,
+      "textRight": 44,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 14642,
+      "height": 521,
+      "words": 88,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 36,
+      "textLeft": 20,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "SHAJI CHITTODAN",
+      "size": 41,
+      "top": 116,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 44,
+      "n": 22
+     },
+     {
+      "x": 20,
+      "n": 17
+     },
+     {
+      "x": 56,
+      "n": 8
+     },
+     {
+      "x": 72,
+      "n": 4
+     }
+    ],
+    "leftBlocks": 51,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "card-rows",
+   "width": 1440,
+   "message": "3 rows of identical boxed cards.",
+   "fix": "Vary the composition; not every section is a card grid.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\lenovo\\OneDrive\\Desktop\\Shaji Chittodan Portfolio\\.taste-skill\\inspect\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\lenovo\\OneDrive\\Desktop\\Shaji Chittodan Portfolio\\.taste-skill\\inspect\\desktop-page-01.jpg",
+    "C:\\Users\\lenovo\\OneDrive\\Desktop\\Shaji Chittodan Portfolio\\.taste-skill\\inspect\\desktop-page-02.jpg",
+    "C:\\Users\\lenovo\\OneDrive\\Desktop\\Shaji Chittodan Portfolio\\.taste-skill\\inspect\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\lenovo\\OneDrive\\Desktop\\Shaji Chittodan Portfolio\\.taste-skill\\inspect\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\lenovo\\OneDrive\\Desktop\\Shaji Chittodan Portfolio\\.taste-skill\\inspect\\tablet-page-01.jpg",
+    "C:\\Users\\lenovo\\OneDrive\\Desktop\\Shaji Chittodan Portfolio\\.taste-skill\\inspect\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\lenovo\\OneDrive\\Desktop\\Shaji Chittodan Portfolio\\.taste-skill\\inspect\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\lenovo\\OneDrive\\Desktop\\Shaji Chittodan Portfolio\\.taste-skill\\inspect\\mobile-page-01.jpg",
+    "C:\\Users\\lenovo\\OneDrive\\Desktop\\Shaji Chittodan Portfolio\\.taste-skill\\inspect\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
