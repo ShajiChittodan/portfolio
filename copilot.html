@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Freight Sales Copilot | AI Freight Intelligence</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <link rel="stylesheet" href="copilot.css">
+</head>
+<body>
+  <div class="app-shell">
+    
+    <!-- Top System Header -->
+    <header class="app-header">
+      <div class="header-left">
+        <div class="avatar-badge">
+          <i data-lucide="anchor" class="header-icon"></i>
+        </div>
+        <div>
+          <div class="app-brand-title">FreightPulse <span class="badge-copilot">AI COPILOT</span></div>
+          <div class="copilot-status">
+            <span class="status-dot"></span>
+            <span class="status-text">LLM Neural Route Active (Air & Ocean)</span>
+          </div>
+        </div>
+      </div>
+      <div class="header-right">
+        <button id="themeToggleBtn" class="icon-btn" title="Toggle Mode">
+          <i data-lucide="sparkles"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Screens Container -->
+    <main class="screens-container">
+      
+      <!-- SCREEN 1: COPILOT INGESTION & CONVERSION -->
+      <section id="screenCopilot" class="screen-view active">
+        
+        <!-- Live Quick Stats Banner -->
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <div class="metric-num" id="statParsedCount">12</div>
+            <div class="metric-label">Parsed Today</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-num" id="statValue">\$48.5K</div>
+            <div class="metric-label">Pipeline Value</div>
+          </div>
+          <div class="metric-card highlight">
+            <div class="metric-num" id="statHandover">4 Ready</div>
+            <div class="metric-label">Ops Handovers</div>
+          </div>
+        </div>
+
+        <!-- Conversation Ingest Box -->
+        <div class="card ingest-card">
+          <div class="card-header">
+            <div class="card-title-group">
+              <i data-lucide="message-square-quote" class="card-icon text-accent"></i>
+              <div>
+                <h3 class="card-title">Paste Sales Conversation</h3>
+                <p class="card-sub">WhatsApp voice-to-text, client email, or call transcript</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Sample Templates -->
+          <div class="quick-samples-wrapper">
+            <span class="sample-tag-label">Try sample:</span>
+            <div class="sample-pills">
+              <button class="pill-btn" onclick="loadSample(1)">🚢 Jebel Ali to Rotterdam (Ocean)</button>
+              <button class="pill-btn" onclick="loadSample(2)">✈️ Shanghai to Dubai (Air Express)</button>
+              <button class="pill-btn" onclick="loadSample(3)">📦 Hamburg to Singapore (Pharma/Reefer)</button>
+            </div>
+          </div>
+
+          <div class="input-area-wrap">
+            <textarea 
+              id="rawConversationInput" 
+              class="raw-input-field" 
+              placeholder="Paste unstructured notes, WhatsApp chat or email here... e.g.: 'Client wants urgent quote for 2x40HC from Jebel Ali to Rotterdam, commodity chemicals, target ETD Nov 15, needs DDP terms and wants best ocean rate by tomorrow 2 PM...'"
+              rows="5"
+            ></textarea>
+            
+            <div class="input-actions-bar">
+              <button type="button" class="action-mini-btn" id="voiceSimBtn" title="Voice Dictation Simulation">
+                <i data-lucide="mic"></i> <span>Voice Input</span>
+              </button>
+              <button type="button" class="action-mini-btn" id="clearInputBtn">
+                <i data-lucide="trash-2"></i> <span>Clear</span>
+              </button>
+              <button type="button" class="primary-btn" id="parseConversationBtn">
+                <i data-lucide="cpu"></i>
+                <span>Extract Freight Artifacts</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- AI Parsing Progress State (Hidden by default) -->
+        <div id="aiProcessingState" class="ai-processing-state hidden">
+          <div class="loader-pulse"></div>
+          <p class="processing-title">Analyzing Freight Intent...</p>
+          <span class="processing-step" id="processingStepText">Extracting Incoterms, POL/POD & Equipment Specs...</span>
+        </div>
+
+        <!-- GENERATED 3-TIER ARTIFACTS PANEL (Hidden until parsed) -->
+        <div id="extractedResultsContainer" class="results-container hidden">
+          
+          <div class="results-header">
+            <span class="badge-confidence">
+              <i data-lucide="check-circle-2"></i> AI Confidence: 98.4%
+            </span>
+            <span class="detected-lane" id="detectedLaneBadge">DXB ➔ RTM</span>
+          </div>
+
+          <!-- Tabs for Artifacts -->
+          <div class="artifact-tabs">
+            <button class="tab-btn active" data-tab="tabEnquiry">
+              <i data-lucide="file-spreadsheet"></i>
+              <span>1. Structured RFQ</span>
+            </button>
+            <button class="tab-btn" data-tab="tabFollowup">
+              <i data-lucide="send"></i>
+              <span>2. Client Reply</span>
+            </button>
+            <button class="tab-btn" data-tab="tabHandover">
+              <i data-lucide="truck"></i>
+              <span>3. Ops Handover</span>
+            </button>
+          </div>
+
+          <!-- ARTIFACT 1: STRUCTURED ENQUIRY / RFQ -->
+          <div id="tabEnquiry" class="artifact-content active">
+            <div class="card artifact-card">
+              <div class="artifact-card-header">
+                <div>
+                  <h4 class="font-bold">Structured Rate Enquiry</h4>
+                  <span class="text-xs text-muted">Formatted for Pricing Desk / Carrier Booking</span>
+                </div>
+                <button class="copy-pill-btn" onclick="copyContent('enquiryDataPreview')">
+                  <i data-lucide="copy"></i> Copy RFQ
+                </button>
+              </div>
+
+              <div class="spec-grid" id="specGrid">
+                <!-- Dynamically populated -->
+              </div>
+
+              <div class="raw-rfq-preview">
+                <div class="code-header">
+                  <span>EDI / SYSTEM SUMMARY</span>
+                  <span class="code-lang">FORMATTED</span>
+                </div>
+                <pre id="enquiryDataPreview" class="code-box"></pre>
+              </div>
+
+              <div class="card-footer-actions">
+                <button class="secondary-btn" onclick="saveToPipeline()">
+                  <i data-lucide="bookmark-check"></i> Save to Active Pipeline
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- ARTIFACT 2: CLIENT FOLLOW-UP (Email & WhatsApp ready) -->
+          <div id="tabFollowup" class="artifact-content">
+            <div class="card artifact-card">
+              <div class="artifact-card-header">
+                <div>
+                  <h4 class="font-bold">Client Confirmation & Follow-up</h4>
+                  <span class="text-xs text-muted">Ready to dispatch via WhatsApp or Outlook</span>
+                </div>
+                <div class="channel-toggle">
+                  <button class="channel-btn active" id="btnChannelWhatsApp" onclick="switchFollowupChannel('whatsapp')">
+                    WhatsApp
+                  </button>
+                  <button class="channel-btn" id="btnChannelEmail" onclick="switchFollowupChannel('email')">
+                    Formal Email
+                  </button>
+                </div>
+              </div>
+
+              <div class="message-preview-bubble">
+                <div class="bubble-header">
+                  <span id="followupRecipient" class="font-semibold text-sm">To: Logistics Manager</span>
+                  <span class="tag-status">Auto-Drafted</span>
+                </div>
+                <div id="followupContentBox" class="bubble-body"></div>
+              </div>
+
+              <div class="card-footer-actions dual">
+                <button class="secondary-btn" onclick="copyFollowupText()">
+                  <i data-lucide="copy"></i> Copy Message
+                </button>
+                <button class="primary-btn whatsapp-cta" onclick="openWhatsAppShare()">
+                  <i data-lucide="message-circle"></i> Send on WhatsApp
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- ARTIFACT 3: OPERATIONAL HANDOVER -->
+          <div id="tabHandover" class="artifact-content">
+            <div class="card artifact-card ops-theme">
+              <div class="artifact-card-header">
+                <div>
+                  <h4 class="font-bold">Operations Execution Brief</h4>
+                  <span class="text-xs text-muted">Dispatched to Freight Operations, Booking & Customs</span>
+                </div>
+                <button class="copy-pill-btn" onclick="copyContent('opsHandoverPreview')">
+                  <i data-lucide="copy"></i> Copy Brief
+                </button>
+              </div>
+
+              <div class="ops-checklist">
+                <div class="checklist-title">Operations Checklist & Risk Gates</div>
+                <div class="check-item">
+                  <input type="checkbox" id="chk1" checked>
+                  <label for="chk1">Space allotment check with preferred ocean lines / airlines</label>
+                </div>
+                <div class="check-item">
+                  <input type="checkbox" id="chk2" checked>
+                  <label for="chk2">Hazardous MSDS / Reefer temperature settings verification</label>
+                </div>
+                <div class="check-item">
+                  <input type="checkbox" id="chk3">
+                  <label for="chk3">Destination customs clearance & DDP duty estimation</label>
+                </div>
+                <div class="check-item">
+                  <input type="checkbox" id="chk4">
+                  <label for="chk4">First-mile pickup booking & container release order</label>
+                </div>
+              </div>
+
+              <div class="raw-rfq-preview">
+                <div class="code-header">
+                  <span>INTERNAL OPS DISPATCH NOTE</span>
+                </div>
+                <pre id="opsHandoverPreview" class="code-box"></pre>
+              </div>
+
+              <div class="card-footer-actions">
+                <button class="primary-btn ops-btn" onclick="dispatchToOps()">
+                  <i data-lucide="share-2"></i> Handover to Ops Team
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- SCREEN 2: PIPELINE & ENQUIRY DISPATCH HUB -->
+      <section id="screenPipeline" class="screen-view">
+        <div class="pipeline-header">
+          <h2 class="view-title">Active Freight Pipeline</h2>
+          <span class="pipeline-count" id="pipelineCounterBadge">4 Deals</span>
+        </div>
+
+        <div class="filter-pills">
+          <button class="filter-btn active" onclick="filterPipeline('all')">All</button>
+          <button class="filter-btn" onclick="filterPipeline('Ocean')">Ocean FCL/LCL</button>
+          <button class="filter-btn" onclick="filterPipeline('Air')">Air Cargo</button>
+          <button class="filter-btn" onclick="filterPipeline('Handover')">Ready for Ops</button>
+        </div>
+
+        <div class="pipeline-cards-list" id="pipelineCardsList">
+          <!-- Dynamically injected -->
+        </div>
+      </section>
+
+      <!-- SCREEN 3: QUICK CARRIER / PORT CALCULATOR & RATE RADAR -->
+      <section id="screenRates" class="screen-view">
+        <div class="rates-hero">
+          <h2 class="view-title">Market Spot Rate Radar</h2>
+          <p class="card-sub">Indicative SCFI/Drewry & TAC Index Benchmarks</p>
+        </div>
+
+        <div class="card route-lookup-card">
+          <div class="input-row">
+            <div class="input-col">
+              <label class="field-label">Origin (POL)</label>
+              <input type="text" class="styled-input" id="calcOrigin" value="Jebel Ali (AEJEA)">
+            </div>
+            <div class="input-col">
+              <label class="field-label">Destination (POD)</label>
+              <input type="text" class="styled-input" id="calcDestination" value="Rotterdam (NLRTM)">
+            </div>
+          </div>
+          <button class="secondary-btn w-full mt-2" onclick="calculateRateBenchmark()">
+            <i data-lucide="trending-up"></i> Check Live Market Corridor
+          </button>
+        </div>
+
+        <div class="rate-benchmark-cards" id="rateBenchmarks">
+          <!-- Dynamic cards -->
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Bottom Navigation Bar (Mobile Native Feel) -->
+    <nav class="bottom-nav">
+      <button class="nav-item active" data-target="screenCopilot">
+        <i data-lucide="sparkles"></i>
+        <span>Copilot</span>
+      </button>
+      <button class="nav-item" data-target="screenPipeline">
+        <i data-lucide="layers"></i>
+        <span>Pipeline</span>
+        <span class="nav-badge" id="navBadge">3</span>
+      </button>
+      <button class="nav-item" data-target="screenRates">
+        <i data-lucide="radar"></i>
+        <span>Radar</span>
+      </button>
+    </nav>
+
+    <!-- Toast Notification Overlay -->
+    <div id="toastNotification" class="toast">
+      <i data-lucide="check" class="toast-icon"></i>
+      <span id="toastMsg">Action completed successfully</span>
+    </div>
+
+  </div>
+
+  <script src="copilot.js"></script>
+</body>
+</html>
+
